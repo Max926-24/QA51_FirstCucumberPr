@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Home Page" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-08-27T09:29:10" hostname="MAXIMCIUC" time="2.785">
+  <properties/>
+  <testcase name="Verify Home Page title is displayed" classname="Home Page" time="2.785">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'User quites Browser' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;User quites Browser&quot;)&#10;public void user_quites_browser() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'User quites Browser' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;User quites Browser&quot;)
+public void user_quites_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[
+@Navigate
+?[1mScenario:?[22m Verify Home Page title is displayed       ?[90m# file:///C:/QA/QA51_FirstCucumberPr/src/test/resources/features/navigate.feature:5?[39m
+  ?[32mâœ”?[39m ?[32m?[1mGiven ?[22mUser launches Chrome browser?[39m              ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.launch_browser()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mWhen ?[22mUser opens Home Page?[39m                       ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.open_HomePage()?[39m
+  ?[32mâœ”?[39m ?[32m?[1mThen ?[22mUser verifies Home Page title is displayed?[39m ?[90m# com.ilCarro.stepDefinitions.HomePageSteps.verify_HomePage_title()?[39m
+  ?[33mâ– ?[39m ?[33m?[1mAnd ?[22mUser quites Browser?[39m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
